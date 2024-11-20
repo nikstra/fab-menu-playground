@@ -1,0 +1,8 @@
+.fab-bar {
+  border-radius: 0 .4rem .4rem 0;
+  bottom: 1rem;
+  position: sticky;
+  text-align: right;
+  width: 90%;
+  z-index: 10;
+}

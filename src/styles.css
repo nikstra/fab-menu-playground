@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  --main-text-padding: 1rem;
+  --main-text-padding-negated: calc(-1 * var(--main-text-padding));
+}
+
+body {
+  background: darkslategray;
+  color: antiquewhite;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+p {
+  margin: .6rem 0;
+}
+
+.main-container {
+  background: white;
+  border-radius: .2rem;
+  color: darkslategray;
+  margin: 0 auto;
+  padding: var(--main-text-padding);
+  width: 100%;
+}
+
+app-fab .fab-bar {
+  background: darkslategray;
+  margin-left: var(--main-text-padding-negated);
+  padding: .3rem;
+}
+
+app-fab button {
+  background: slategray;
+  border: 1px solid black;
+  border-radius: .2rem;
+  color: white;
+  margin: 0 .1rem;
+  padding: .3rem;
+}
