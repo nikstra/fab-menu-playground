@@ -12,6 +12,10 @@ body {
   font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+nav.navbar {
+  border-radius: .2rem;
+}
+
 p {
   margin: .6rem 0;
 }
