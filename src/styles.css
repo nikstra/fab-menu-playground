@@ -10,6 +10,7 @@ body {
   background: darkslategray;
   color: antiquewhite;
   font-family: 'Be Vietnam Pro', sans-serif;
+  margin: .2rem;
 }
 
 nav.navbar {
