@@ -43,3 +43,19 @@ app-fab button {
   margin: 0 .1rem;
   padding: .3rem;
 }
+
+/* Mathcing Bootstraps container-md. */
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .container-md {
+    padding: 0;
+  }
+
+  nav.navbar,
+  .main-container {
+    border-radius: 0;
+  }
+}
